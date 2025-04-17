@@ -145,3 +145,44 @@ footer .newsletter button {
 footer .newsletter button:hover {
     background-color: #e55d50;
 }
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses .course-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits {
+        flex-direction: column;
+    }
+
+    .testimonial-carousel {
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
+.course-cards {
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+    nav.mobile-visible ul {
+        display: flex;
+    }
+}
+
